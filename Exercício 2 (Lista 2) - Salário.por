@@ -19,7 +19,7 @@ programa
 		extras = (horas-50)
 		acrescimo = extras*20
 		salario = ((horas - extras)*10)+ acrescimo
-		escreva(nome, ", seu salário, contando com as suas ", extras, " horas extras, será de ", salario, " reais")
+		escreva("\n", nome, ", seu salário, contando com as suas ", extras, " horas extras, será de ", salario, " reais")
 	}
 	}
 }
