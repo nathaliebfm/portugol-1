@@ -9,12 +9,12 @@ programa
 	
 	escreva("\nQual o seu nome? ")
 	leia(nome)
-	escreva(nome, ", quantas horas você trabalhou no último mês? ")
+	escreva("\n", nome, ", quantas horas você trabalhou no último mês? ")
 	leia(horas)
 
 	se(horas<=50){
 		salario = horas*10
-		escreva(nome, "seu salário será de ", salario, " reais")
+		escreva("\n", nome, ", seu salário será de ", salario, " reais")
 	}senao se(horas>50){
 		extras = (horas-50)
 		acrescimo = extras*20
